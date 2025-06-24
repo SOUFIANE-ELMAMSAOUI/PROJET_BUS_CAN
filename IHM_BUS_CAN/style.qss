@@ -1,0 +1,161 @@
+/* Main Window Styling */
+QMainWindow {
+    background-color: #2c3e50;
+}
+
+/* Widget Styling */
+QWidget {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #ecf0f1;
+}
+
+/* Group Box Styling */
+QGroupBox {
+    border: 2px solid #1abc9c;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #34495e;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 5px;
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+/* Label Styling */
+QLabel {
+    padding: 2px;
+    color: #f1c40f;
+}
+
+/* Section Headers */
+QLabel[styleSheet*="font: 75 italic 16pt"] {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid #c0392b;
+}
+
+/* Values Display */
+QGroupBox QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+/* Button Styling */
+QPushButton {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    opacity: 0.9;
+}
+
+QPushButton:pressed {
+    opacity: 0.7;
+}
+
+/* ON/OFF Button */
+QPushButton#OnOffButton {
+    background-color: #27ae60;
+}
+
+QPushButton#OnOffButton:hover {
+    background-color: #2ecc71;
+}
+
+/* Auto Button */
+QPushButton#autoToggleButton {
+    background-color: #3498db;
+}
+
+QPushButton#autoToggleButton:hover {
+    background-color: #2980b9;
+}
+
+/* Send Button */
+QPushButton#setSpeed {
+    background-color: #e74c3c;
+}
+
+QPushButton#setSpeed:hover {
+    background-color: #c0392b;
+}
+
+/* Random Speed Button */
+QPushButton#MotorSpeed_2 {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+
+QPushButton#MotorSpeed_2:hover {
+    background-color: #d35400;
+}
+
+/* Line Edit Styling */
+QLineEdit {
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+QLineEdit:focus {
+    border: 2px solid #3498db;
+}
+
+/* Radio Button Styling */
+QRadioButton {
+    spacing: 5px;
+    color: #f1c40f;
+}
+
+QRadioButton::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #e74c3c;
+    border: 2px solid #1abc9c;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color: #34495e;
+    border: 2px solid #1abc9c;
+    border-radius: 7px;
+}
+
+/* Measurement Unit Labels */
+QLabel#uniteLabel {
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+/* Angle, Acceleration, Gyroscope Section Headers */
+QLabel[styleSheet*="font: 75 italic 12pt"] {
+    color: #f1c40f;
+    font-weight: bold;
+    border-bottom: 1px solid #f39c12;
+    padding-bottom: 3px;
+}
+
+/* Angle, Acceleration, Gyroscope Labels */
+QLabel[text="φ"], QLabel[text="θ"], QLabel[text="Ψ"],
+QLabel[text="acc_x"], QLabel[text="acc_y"], QLabel[text="acc_z"],
+QLabel[text="gyr_x"], QLabel[text="gyr_y"], QLabel[text="gyr_z"] {
+    font-weight: bold;
+    color: #f1c40f;
+}

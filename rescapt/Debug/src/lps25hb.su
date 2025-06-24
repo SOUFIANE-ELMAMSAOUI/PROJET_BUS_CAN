@@ -1,0 +1,4 @@
+../src/lps25hb.c:49:9:lps25hb_whoAmI	16	static
+../src/lps25hb.c:58:6:lps25hb_setup	16	static
+../src/lps25hb.c:70:5:lps25hb_getPressure	24	static
+../src/lps25hb.c:85:5:lps25hb_getTemperature	24	static

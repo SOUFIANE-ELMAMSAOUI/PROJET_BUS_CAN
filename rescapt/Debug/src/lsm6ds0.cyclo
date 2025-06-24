@@ -1,0 +1,16 @@
+../src/lsm6ds0.c:15:9:lsm6ds0_whoAmI	1
+../src/lsm6ds0.c:25:6:lsm6ds0_setup	1
+../src/lsm6ds0.c:79:9:lsm6ds0_gyro_getAxesXRaw	1
+../src/lsm6ds0.c:86:9:lsm6ds0_gyro_getAxesYRaw	1
+../src/lsm6ds0.c:93:9:lsm6ds0_gyro_getAxesZRaw	1
+../src/lsm6ds0.c:100:7:lsm6ds0_getGyroScale	5
+../src/lsm6ds0.c:122:9:lsm6ds0_gyro_getAxesX	1
+../src/lsm6ds0.c:134:9:lsm6ds0_gyro_getAxesY	1
+../src/lsm6ds0.c:146:9:lsm6ds0_gyro_getAxesZ	1
+../src/lsm6ds0.c:162:9:lsm6ds0_acc_getAxesXRaw	1
+../src/lsm6ds0.c:169:9:lsm6ds0_acc_getAxesYRaw	1
+../src/lsm6ds0.c:176:9:lsm6ds0_acc_getAxesZRaw	1
+../src/lsm6ds0.c:183:7:lsm6ds0_getAccScale	5
+../src/lsm6ds0.c:206:9:lsm6ds0_acc_getAxesX	1
+../src/lsm6ds0.c:218:9:lsm6ds0_acc_getAxesY	1
+../src/lsm6ds0.c:230:9:lsm6ds0_acc_getAxesZ	1

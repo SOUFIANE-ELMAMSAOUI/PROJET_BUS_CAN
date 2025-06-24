@@ -1,0 +1,4 @@
+../src/lps25hb.c:49:9:lps25hb_whoAmI	1
+../src/lps25hb.c:58:6:lps25hb_setup	1
+../src/lps25hb.c:70:5:lps25hb_getPressure	1
+../src/lps25hb.c:85:5:lps25hb_getTemperature	1

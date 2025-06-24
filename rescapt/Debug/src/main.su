@@ -1,0 +1,7 @@
+/home/ayoub/Desktop/rescapt/CMSIS/core/core_cm3.h:1524:22:NVIC_SetPriority	16	static
+/home/ayoub/Desktop/rescapt/CMSIS/core/core_cm3.h:1656:26:SysTick_Config	16	static
+../src/main.c:46:6:debugSystemState	8	static
+../src/main.c:63:5:main	16	static
+../src/main.c:164:6:anemo_callback	8	static
+../src/main.c:186:6:can_callback	24	static
+../src/main.c:221:6:HAL_TIM_PeriodElapsedCallback	16	static
